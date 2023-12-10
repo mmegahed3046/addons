@@ -1,8 +1,9 @@
 <?php
-/*******************************************************************************************
+
+
 if (!defined('BOOTSTRAP')) {
-die('Access denied');
+    die('Access denied');
 }
-if (AREA == 'C'){
-fn_register_hooks('dispatch_assign_template');
+if (AREA == 'C') {
+    fn_register_hooks('dispatch_assign_template');
 }

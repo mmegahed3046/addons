@@ -111,13 +111,11 @@ title="{__("ab__am.addon.action.`$a.action.status`.button.tooltip", ['[ver]' => 
 {/if}
 {elseif $a.action.status == 'update_addon'}
 <span class="ab-am-action {$a.action.status}">{__("ab__am.addon.action.`$a.action.status`", ['[ver]' => $a.action.version])}</span><br><br>
-{if $cs_addons[$a.key].status == 'A'}
 {if $a.action.ab__am}<span class="ab-am-action update_am">{__("ab__am.addon.action.require_update", ['[ver]' => $a.action.ab__am.version])}</span>{else}
 {btn type="text" class="cm-tooltip btn ab-am-action-button-install_addon" href="upgrade_center.refresh" target="_blank"
 text=__("ab__am.addon.action.`$a.action.status`.button.value", ['[ver]' => $a.action.version])
 title=__("ab__am.addon.action.`$a.action.status`.button.tooltip", ['[ver]' => $a.action.version])
 }
-{/if}
 {/if}
 {elseif $a.action.status == 'wait_new_version'}
 <span class="ab-am-action {$a.action.status}">{__("ab__am.addon.action.`$a.action.status`", ['[ver]' => $a.action.version, '[cscart]' => $a.action.cscart])}</span>

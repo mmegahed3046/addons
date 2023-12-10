@@ -6,7 +6,8 @@ if (ct.hasClass('hidden')) ct.removeClass('hidden');
 else ct.addClass('hidden');
 });
 $.ceEvent('on', 'ce.commoninit', function(context) {
-var tooltips = {if $abam_tooltips}{$abam_tooltips|json_encode nofilter}{else} { } {/if};
+var tooltips = {$abam_tooltips|json_encode nofilter};
+/*
 if (Object.keys(tooltips).length !== 0){
 $.each(tooltips, function(addon, addon_items) {
 $.each(addon_items, function(item, value) {
@@ -14,9 +15,11 @@ context.find(value.selector).append('<a target="_blank" href="' + value.url + '"
 });
 });
 }
+*/
 });
 $.ceEvent('on', 'ce.commoninit', function(context) {
-var ab_am_events = {if $abam_events}{$abam_events|json_encode nofilter}{else}{ available_updates: { } }{/if};
+var ab_am_events = {$abam_events|json_encode nofilter};
+/*
 var available_updates = Object.keys(ab_am_events.available_updates).length;
 if (available_updates){
 var menu = $('.navbar-admin-top .nav-pills');
@@ -39,6 +42,7 @@ li_a.find('.ab-am-available-updates').remove();
 li_a.append('<span title="{"ab__am.menu.available_updates"|__}" class="ab-am-available-updates">' + available_updates + '</span>');
 }
 }
+*/
 });
 function delay(callback, ms) {
 var timer = 0;

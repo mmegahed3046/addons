@@ -82,14 +82,14 @@ msgstr "Встановлена остання версія <code>v[ver]</code> �
 
 msgctxt "Languages::ab__am.addon.action.unavailable_addon"
 msgid "The add-on is not available for you (either due to incompatibility with your version of the CS-Cart <b>[cscart]</b> or your subscription for updates has expired)"
-msgstr "Модуль Вам недоступний (або через несумісність з Вашою версією магазину <b>[cscart]</b>, або у Вас закінчилась підписка)"
+msgstr "Модуль Вам недоступний (або через несумісність з Вашою версією магазину b>[cscart]</b>, або у Вас закінчилась підписка)"
 
 msgctxt "Languages::ab__am.addon.action.require_update"
 msgid "To install the add-on or updates, please, update <b>AB: Add-ons Manager</b> to the actual version <code>v[ver]<code>"
 msgstr "Для установки модуля або установки оновлень, будь ласка, оновіть <b>AB: Менеджер модулів</b> до актуальної версії <code>v[ver]</code>"
 
 msgctxt "Languages::ab__am.addon.subscription.exp"
-msgid "Your subscription for updates has expired <b>[date]</b>. To access the current add-on versions, you must buy a subscription."
+msgid "Your subscription for updates has expired<b>[date]</b>. To access the current add-on versions, you must buy a subscription."
 msgstr "Ваша підписка закінчилась <b>[date]</b>. Для отримання доступу до актуальних версій модулів необхідно купити підписку"
 
 msgctxt "Languages::ab__am.addon.subscription.exp.button.value"
@@ -121,32 +121,32 @@ msgid "The installation process"
 msgstr "Процес установки модуля"
 
 msgctxt "Languages::ab__am.install.downloading"
-msgid "[name] – <b>downloading</b>"
-msgstr "[name] – <b>завантаження</b>"
+msgid "[name] — <b>downloading</b>"
+msgstr "[name] — <b>завантаження</b>"
 
 msgctxt "Languages::ab__am.install.checking"
-msgid "[name] – <b>checking</b>"
-msgstr "[name] – <b>перевірка</b>"
+msgid "[name] — <b>checking</b>"
+msgstr "[name] — <b>перевірка</b>"
 
 msgctxt "Languages::ab__am.install.installing"
-msgid "[name] – <b>installing</b>"
-msgstr "[name] – <b>установка</b>"
+msgid "[name] — <b>installing</b>"
+msgstr "[name] — <b>установка</b>"
 
 msgctxt "Languages::ab__am.install.clearing_cache"
 msgid "Clearing cache"
 msgstr "Очистити кеш"
 
 msgctxt "Languages::ab__am.addon.status.a"
-msgid "Add-on status – Active"
-msgstr "Статус модуля – Увімкнений"
+msgid "Add-on status is \"Active\""
+msgstr "Статус модуля — Увімкнений"
 
 msgctxt "Languages::ab__am.addon.status.d"
-msgid "Add-on status – Inactive"
-msgstr "Статус модуля – Вимкнений"
+msgid "Add-on status is \"Inactive\""
+msgstr "Статус модуля — Вимкнений"
 
 msgctxt "Languages::ab__am.addon.status.n"
-msgid "Add-on status – Not installed yet"
-msgstr "Статус модуля – Ще не встановлений"
+msgid "Add-on status is \"Not installed yet\""
+msgstr "Статус модуля — Ще не встановлений"
 
 msgctxt "Languages::ab__am.menu.available_updates"
 msgid "Updates available"
@@ -178,7 +178,7 @@ msgstr "(Замовлення №[order_id])"
 
 msgctxt "Languages::ab__am.no_data"
 msgid "To use AlexBranding add-ons and/or sets, your domain <b>[domain]</b> must be licensed.<br>In the case of absence of the domain <b>[domain]</b> in the list of licensed domains, all AlexBranding solutions will be automatically turned off. <br>Contact <b>info@alexbranding.com</b> for problem solving."
-msgstr "Для застосування модулів і/або пакетів AlexBranding Ваш домен <b>[domain]</b> має бути ліцензований. <Br>У випадку відсутності домену <b>[domain]</b> в списку ліцензованих доменів – усі рішення AlexBranding будуть автоматично вимкнені. <br>Зверніться на пошту <b>info@alexbranding.com</b> для вирішення проблем."
+msgstr "Для застосування модулів і/або пакетів AlexBranding Ваш домен <b>[domain]</b> має бути ліцензований. <Br>У випадку відсутності домену <b>[domain]</b> в списку ліцензованих доменів — усі рішення AlexBranding будуть автоматично вимкнені. <br>Зверніться на пошту <b>info@alexbranding.com</b> для вирішення проблем."
 
 msgctxt "Languages::ab__am.no_data.notification"
 msgid "Due to the fact, that your domain [domain] is not included in the list of licensed, some AlexBranding add-ons have been automatically turned off. <a href='[link]'>More info</a>."
@@ -193,12 +193,12 @@ msgid "AB: Add-ons are available only in the <a href='[link]'>All stores</a> mod
 msgstr "AB: Модуль доступний лише в режимі <a href='[link]'>Усі магазини</a>."
 
 msgctxt "Languages::ab__am.addons_sets.notes"
-msgid "<h4>Basic concepts</h4> <p><u>The installed version</u> is the version of the add-on, that is currently installed on your store.</p> <p><u>The available version</u> is the latest version of the add-on, that is available for you to install and/or update within the prepaid subscription for updates. For example, for the add-on there are versions v2.0 from February 15, 2019 and v2.1 from March 2, 2019 and your subscription to the add-on updates ended on March 1, 2019, then the latest available version for you will be version v2.0 from 15 February 2019. To receive version v2.1 of March 2, 2019, it is necessary to renew the subscription period.</p> <p><u>The actual version</u> is the latest version of the add-on at the moment. We recommend you always update to the actual version, which contains fixed bugs and new useful functionality.</p> <p><u>The add-on is not available for your store</u> – it is possible, the version of your CS-Cart does not correspond to the minimum acceptable version for the add-on. For example, the YoupiTheme is available only for CS-Cart 4.7.x and more.</p> <br> <h4>Installation process</h4> <p>The installation of the add-on has never been so simple as it is now. After purchasing AlexBranding add-ons and installing <b>AB: Add-ons Manager</b> you can install the latest version of the add-on in one click, without any visits to the personal cabinet in the store, order search, downloading of archives, etc.</p> <br> <h4>Upgrade process</h4> <p>Add-ons updating goes via CS-Cart <b>Upgrade Center</b>. If there is no update available in the CS-Cart Upgrade Center, the update is performed by Deinstallation the old version of the add-on and Installing the new version</p> <br> <h4>Cache</h4> <p>After installing and/or updating, you must reset CS-Cart cache. See CS-Cart <a target='_blank' href='https://docs.cs-cart.com/4.7.x/developer_guide/getting_started/cache_clearing.html'>documentation</a> for more details.</p>"
+msgid "<h4>Basic concepts</h4> <p><u>The installed version</u> is the version of the add-on, that is currently installed on your store.</p> <p><u>The available version</u> is the latest version of the add-on, that is available for you to install and/or update within the prepaid subscription for updates. For example, for the add-on there are versions v2.0 from February 15, 2019 and v2.1 from March 2, 2019 and your subscription to the add-on updates ended on March 1, 2019, then the latest available version for you will be version v2.0 from 15 February 2019. To receive version v2.1 of March 2, 2019, it is necessary to renew the subscription period.</p> <p><u>The actual version</u> is the latest version of the add-on at the moment. We recommend you always update to the actual version, which contains fixed bugs and new useful functionality.</p> <p><u>The add-on is not available for your store</u> — it is possible, the version of your CS-Cart does not correspond to the minimum acceptable version for the add-on. For example, the YoupiTheme is available only for CS-Cart 4.7.x and more.</p> <br> <h4>Installation process</h4> <p>The installation of the add-on has never been so simple as it is now. After purchasing AlexBranding add-ons and installing <b>AB: Add-ons Manager</b> you can install the latest version of the add-on in one click, without any visits to the personal cabinet in the store, order search, downloading of archives, etc.</p> <br> <h4>Upgrade process</h4> <p>Add-ons updating goes via CS-Cart <b>Upgrade Center</b>. If there is no update available in the CS-Cart Upgrade Center, the update is performed by Deinstallation the old version of the add-on and Installing the new version</p> <br> <h4>Cache</h4> <p>After installing and/or updating, you must reset CS-Cart cache. See CS-Cart <a target='_blank' href='https://docs.cs-cart.com/4.7.x/developer_guide/getting_started/cache_clearing.html'>documentation</a> for more details.</p>"
 msgstr "<h4>Основні поняття</h4>"
-"<p><u>Установлена версія</u> – це версія модуля, яка у цей момент установлена на Вашому сайті.</p>"
-"<p><u>Доступна Вам версія</u> – це найостанніша версія модуля, яка Вам доступна для установки і/або оновлення в межах заздалегідь оплаченої підписки на оновлення. Наприклад, для модуля існують версії: v2.0.0 від 15 лютого 2019р. і v2.1.0 від 2 березня 2019р. І Ваша підписка на модуль завершилась 1 березня 2019р., тоді останньою доступною версією для Вас буде версія v2.0.0 від 15 лютого 2019р. Для отримання версії v2.1.0 від 2 березня 2019р. Вам необхідно купити підписку.</p>"
-"<p><u>Актуальна версія </u> – це найостанніша версія модулю, яка є на цю хвилину. Радимо завжди оновлювати до актуальної версії, яка містить виправлені помилки і новий корисний функціонал. </p>"
-"<p><u>Модуль недоступний для Вашого магазину</u> – це можливо, коли версія Вашого CS-Cart не відповідає мінімально допустимій версії для модуля або у Вас завершився період підписки. Наприклад, тема Unitheme2 доступна тільки для CS-Cart 4.10.x і більше.</p>"
+"<p><u>Установлена версія</u> — це версія модуля, яка у цей момент установлена на Вашому сайті.</p>"
+"<p><u>Доступна Вам версія</u> — це найостанніша версія модуля, яка Вам доступна для установки і/або оновлення в межах заздалегідь оплаченої підписки на оновлення. Наприклад, для модуля існують версії: v2.0.0 від 15 лютого 2019р. і v2.1.0 від 2 березня 2019р. І Ваша підписка на модуль завершилась 1 березня 2019р., тоді останньою доступною версією для Вас буде версія v2.0.0 від 15 лютого 2019р. Для отримання версії v2.1.0 від 2 березня 2019р. Вам необхідно купити підписку.</p>"
+"<p><u>Актуальна версія </u> — це найостанніша версія модулю, яка є на цю хвилину. Радимо завжди оновлювати до актуальної версії, яка містить виправлені помилки і новий корисний функціонал. </p>"
+"<p><u>Модуль недоступний для Вашого магазину</u> — це можливо, коли версія Вашого CS-Cart не відповідає мінімально допустимій версії для модуля або у Вас завершився період підписки. Наприклад, тема Unitheme2 доступна тільки для CS-Cart 4.10.x і більше.</p>"
 "<br>"
 "<h4>Процес установки</h4>"
 "<p>Установка модуля ще ніколи не була настільки простою як зараз. Після покупки рішень AlexBranding і установки <b>AB: Менеджера модулів</b> Ви за одне натискання зможете встановити доступну версію модуля, без будь-яких відвідувань оформленого замовлення, пошуку замовлення, завантаження архівів і таке інше.</p>"
@@ -296,7 +296,7 @@ msgstr "Якщо оновлення модулю недоступні через
 
 msgctxt "Languages::ab__am.submit.tooltip"
 msgid "Keep in mind that before installing/updating all files of this add-on will be deleted, including your changes in this add-on. If you have any files - be sure to save them. [update_info]"
-msgstr "Майте на увазі, що перед установкою будуть видалені усі файли цього модулю. В тому числі, будуть видалені і внесені Вами зміни в цей модуль, якщо вони є – обов'язково збережіть їх. [update_info]"
+msgstr "Майте на увазі, що перед установкою будуть видалені усі файли цього модулю. В тому числі, будуть видалені і внесені Вами зміни в цей модуль, якщо вони є — обов'язково збережіть їх. [update_info]"
 
 msgctxt "Languages::ab__am.submit.tooltip.update_info"
 msgid "Be sure to remember add-on settings to restore them after the update if they are"

@@ -1,15 +1,16 @@
 <?php
-/*******************************************************************************************
+
+
 if (!defined('BOOTSTRAP')) {
-die('Access denied');
+    die('Access denied');
 }
 $schema = [
-'youtube',
-'telegram',
-'facebook',
-'twitter',
-'instagram',
-'whatsapp',
-'email',
+    'youtube',
+    'telegram',
+    'facebook',
+    'twitter',
+    'instagram',
+    'whatsapp',
+    'email',
 ];
 return $schema;
